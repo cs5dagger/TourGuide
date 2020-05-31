@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.events.EventFragment">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Public Events"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/title_text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sound &amp; Light Show"
+            android:id="@+id/light_show_title"
+            android:textSize="22sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textColor="#2B2828"
+            android:layout_below="@+id/title_text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/light_show_title"
+            android:text="example"
+            android:padding="5dp"
+            android:id="@+id/light_info"
+            android:layout_marginTop="5dp"
+            android:textColor="#2B2828"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exhibition"
+            android:id="@+id/ex_title"
+            android:textSize="22sp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="#2B2828"
+            android:layout_below="@+id/light_info"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ex_title"
+            android:text="example"
+            android:padding="5dp"
+            android:id="@+id/ex_info"
+            android:layout_marginTop="5dp"
+            android:textColor="#2B2828"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ex_info"
+            android:text="No images available"/>
+
+    </RelativeLayout>
+</ScrollView>
